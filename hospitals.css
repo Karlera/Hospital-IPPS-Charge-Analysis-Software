@@ -1,0 +1,84 @@
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+  tr:hover {background-color:#f5f5f5;}
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .t1Container{
+    height: 600px;
+    overflow-y: scroll;
+
+  }
+.CUser{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.ComBlock{
+  margin-top: 10px;
+}
+.commentContainer{
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+  border-left: 2px solid #edeff1;
+}
+.commentSectionContainer{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 25%;
+}
+.CommentSectionTitle{
+  background: #005c54;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.CommentSectionTitle p{
+  margin-bottom: 0px;
+}
+.CtextAreaParent{
+
+}
+.TopComSubmit{
+  margin-top:3px;
+  border: 1px solid black;
+}
+.CTextArea{
+  width: 100%;
+}
+.CSubmit{
+
+}
+textarea {
+  resize: none !important;
+}
+.EditCom{
+
+}
+.Upvote, .DownVote{
+  display: block;
+}
+.updownContainer {
+    position: absolute;
+    left: 13px;
+}
+.SubCommentBlock{
+  margin-left: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #edeff1;
+}
